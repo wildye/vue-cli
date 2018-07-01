@@ -36,7 +36,7 @@ npm run build --report
 │   │   ├── _base.less                // 基础样式
 │   │   ├── _color.less               // 颜色变量配置
 │   │   ├── _mixin.less               // less 混合
-│   │   └── _reset.less               // 样式初始化重置
+│   │   └── _reset.less               // 重置默认样式
 │   ├── less                      // 页面
 │   │   └── _index.less               // 主页样式文件
 │   └── style.less                // 主样式文件
