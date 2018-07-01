@@ -1,7 +1,7 @@
 {
-  "name": "vue-cli2.5",
+  "name": "vue-cli2.0",
   "version": "1.0.0",
-  "description": "Vue-Cli 2.5 Template",
+  "description": "Vue-Cli 2.0 Template",
   "author": "凝弧 <free.ye@live.cn>",
   "private": true,
   "scripts": {

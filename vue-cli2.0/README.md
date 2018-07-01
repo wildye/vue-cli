@@ -1,6 +1,6 @@
-# vue-cli2.5
+# vue-cli2.0
 
-> Vue-Cli 2.5 Template
+> Vue-Cli 2.0 Template
 
 ## Build Setup
 
@@ -18,4 +18,40 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+目录结构
+=========
+
+* src
+``` bash
+├── App.vue                   // APP入口文件
+├── api                       // 接口调用工具
+│   └── index.js
+├── components                // 组件
+├── router                    // 子路由
+│   └── index.js
+├── store                     // 状态
+│   └── index.js
+├── style                     // less 样式
+│   ├── base                      // 基础
+│   │   ├── _base.less                // 基础样式
+│   │   ├── _color.less               // 颜色变量配置
+│   │   ├── _mixin.less               // less 混合
+│   │   └── _reset.less               // 样式初始化重置
+│   ├── less                      // 页面
+│   │   └── _index.less               // 主页样式文件
+│   └── style.less                // 主样式文件
+├── utils                     // 常用工具
+│   └── index.js
+├── views                     // 页面组件
+│   └── index.vue
+├── App.vue                   // APP 入口文件
+└── main.js                   // 项目配置文件
+```
+
+* static
+``` bash
+├── css                       // 第三方的样式
+├── fonts                     // 字体图标
+├── image                     // 图片
+└── js                        // 第三方的JS文件，如 jquery
+```
