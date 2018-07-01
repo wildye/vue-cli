@@ -1,7 +1,7 @@
 const axios = require('axios')
 
 // 配置API接口地址
-let root = '/api/'
+let root = '/api'
 
 // 检测参数类型
 function toType (p) {

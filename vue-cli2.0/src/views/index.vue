@@ -1,10 +1,17 @@
 <template>
-  <div>index page</div>
+  <div>
+    <h1>index page</h1>
+    <apiTest/>
+  </div>
 </template>
 
 <script>
+import apiTest from '../components/axiosDemo'
 export default {
-  name: 'index'
+  name: 'index',
+  components: {
+    apiTest
+  }
 }
 </script>
 
