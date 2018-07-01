@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import App from './App'
-import router from './router'
 
 // 引入组件
+import router from './router'
+import store from './store'
 import api from './api'
 
 // 绑定全局方法
@@ -15,6 +16,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   api,
   render: h => h(App)
 }).$mount('#app')
